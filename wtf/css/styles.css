@@ -1,10 +1,16 @@
-body * {
-  display: inline;
+.container {
+  display: flex;
+  width: 800px;
 }
 
-em {
-  background-color: red;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid;
+h1 {
+  flex-grow: 1;
+}
+
+.p1 {
+  flex-basis: 250px;
+}
+
+.p2 {
+  flex-basis: 250px;
 }
